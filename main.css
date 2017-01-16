@@ -1,0 +1,83 @@
+body {
+  font: 100%/1.4 Arial;
+  background-image: url("http://wallpaperbackgrounds.com/Content/wallpapers/artistic/oriental/171743-14687.jpg");
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size:14px
+
+}
+
+ul, ol, dl { 
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;   
+  padding-right: 15px;
+  padding-left: 15px; 
+}
+a img { 
+  border: none;
+}
+
+a:link {
+  color:#414958;
+  text-decoration: underline; 
+}
+a:visited {
+  color: #4E5869;
+  text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+  text-decoration: none;
+}
+
+
+.container {
+  width: 80%;
+  max-width: 1260px;
+  min-width: 780px;
+  background: #FFFF00;
+  margin: 0 auto; 
+
+}
+
+.header {
+  background: black;
+
+
+}
+
+
+.content {
+  padding: 10px 0;
+
+}
+
+
+.content ul, .content ol { 
+  padding: 0 15px 15px 40px; 
+  list-style-type: none; 
+}
+
+
+.footer {
+  padding: 10px 0;
+  background: black;
+}
+
+.fltrt {  
+  float: right;
+  margin-left: 8px;
+}
+.fltlft { 
+  float: left;
+  margin-right: 8px;
+}
+.clearfloat { 
+  clear:both;
+  height:0;
+  font-size: 1px;
+  line-height: 0px;
+}
